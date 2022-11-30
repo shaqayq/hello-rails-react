@@ -9,7 +9,7 @@
 
 ## Built With
 
-details>
+<details>
   <summary>Client</summary>
   <ul>
     <li><a href="https://reactjs.org/">React.js</a></li>
