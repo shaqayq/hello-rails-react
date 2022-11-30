@@ -1,8 +1,17 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-
+import {  Route, Routes } from 'react-router-dom';
+import Greeting from './greeting';
 function App() {
-  return (<h1>Hello World!</h1>);
-}
+    return (
+     
+     <div>
+      <h1>App page</h1>
+     
+       <Routes>
+          <Route path="/" element={<Greeting />} />
+      </Routes>
+      </div>
+    );
+  }
 
 export default App
