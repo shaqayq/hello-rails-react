@@ -18,7 +18,7 @@ const greetingReducer = (state = initialState , action) => {
 
 export const fetchGreeting = createAsyncThunk(GET_GREETING ,async() => {
 
-        const response = await fetch(API_URL );
+        const response = await fetch(API_URL);
         const greeting=await response.json();
       
         console.log(greeting.message);
