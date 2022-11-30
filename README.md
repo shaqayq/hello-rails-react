@@ -99,4 +99,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [ Creative Commons license ](https://creativecommons.org/licenses/by-nc/4.0/) licensed.
+This project is [ MIT ]() licensed.
